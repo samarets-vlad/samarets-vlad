@@ -17,7 +17,7 @@ I work with small product teams and startups as an independent contractor — fr
 
 - 🏗️ Infrastructure as Code with **Terraform** (modules, remote state, multi-env workspaces)
 - ⚙️ Configuration management with **Ansible** (idempotent playbooks, roles)
-- 🐳 Containerization: **Docker**, **Docker Compose**, **Kubernetes (k3s)**, **Helm**
+- 🐳 Containerization: **Docker**, **Docker Compose**, **Kubernetes (k8s)**, **Helm**
 - 🔁 CI/CD: **GitHub Actions**, **GitLab CI** — build → test → push → deploy
 - 📊 Observability: **Prometheus**, **Grafana**, **Loki**, **Alertmanager**
 - ☁️ AWS: EC2, S3, RDS, Lambda, Route53, ECR, ALB, CloudFront, VPC, IAM, CloudWatch
@@ -76,4 +76,4 @@ I work with small product teams and startups as an independent contractor — fr
 
 ## 🌍 Languages
 
-🇺🇦 Ukrainian — Native &nbsp;|&nbsp; 🇷🇺 Russian — Native &nbsp;|&nbsp; 🇬🇧 English — B2
+🇺🇦 Ukrainian — Native &nbsp;|&nbsp; 🇷🇺 Russian — Native &nbsp;|&nbsp; en English — B2
