@@ -76,4 +76,4 @@ I work with small product teams and startups as an independent contractor — fr
 
 ## 🌍 Languages
 
-🇺🇦 Ukrainian — Native &nbsp;|&nbsp; 🇬🇧 English — B2
+🇺🇦 Ukrainian — Native &nbsp;|&nbsp; en English — B2
