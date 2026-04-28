@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="mailto:vladyslav.samarets.work@gmail.com"><img src="https://img.shields.io/badge/Email-vladyslav.samarets.work%40gmail.com-blue?style=flat-square&logo=gmail"/></a>
-  <img src="https://img.shields.io/badge/Location-Reutte%2C%20Austria-lightgrey?style=flat-square&logo=google-maps"/>
+  <img src="https://img.shields.io/badge/Location-Innsbruck%2C%20Austria-lightgrey?style=flat-square&logo=google-maps"/>
   <img src="https://img.shields.io/badge/Open%20to-Remote%20Only-brightgreen?style=flat-square"/>
 </p>
 
@@ -12,7 +12,7 @@
 
 ## 🚀 About Me
 
-DevOps Engineer with **4+ years** of hands-on experience designing, automating, and maintaining cloud infrastructure on AWS.  
+DevOps Engineer with hands-on experience designing, automating, and maintaining cloud infrastructure on AWS.  
 I work with small product teams and startups as an independent contractor — from zero-to-production infrastructure provisioning to fully automated CI/CD pipelines.
 
 - 🏗️ Infrastructure as Code with **Terraform** (modules, remote state, multi-env workspaces)
@@ -51,12 +51,12 @@ I work with small product teams and startups as an independent contractor — fr
 
 | Project | Stack | Description |
 |---|---|---|
-| 🏗️ [aws-terraform-infra](https://github.com/samarets-vlad/aws-terraform-infra) | Terraform · AWS · EC2 · ALB · RDS · S3 · CloudFront | Multi-environment AWS infrastructure with reusable modules and remote state |
-| ⚙️ [ansible-server-setup](https://github.com/samarets-vlad/ansible-server-setup) | Ansible · Nginx · Docker · Linux · TLS | Idempotent server provisioning and app deployment playbooks |
-| 📊 [monitoring-stack](https://github.com/samarets-vlad/monitoring-stack) | Prometheus · Grafana · Loki · Alertmanager · Ansible | Full observability stack deployed via a single Ansible playbook |
-| ☸️ [k8s-helm-app](https://github.com/samarets-vlad/k8s-helm-app) | Kubernetes · Helm · Traefik · cert-manager · MySQL · Loki | End-to-end K8s app deployment with TLS, DB backups, and observability |
-| 🔁 [ci-cd-pipeline-demo](https://github.com/samarets-vlad/ci-cd-pipeline-demo) | GitHub Actions · Docker · AWS ECR · EC2 | Full CI/CD pipeline: lint → test → build → push → deploy with rollback |
-| λ [lambda-automation](https://github.com/samarets-vlad/lambda-automation) | AWS Lambda · Python · IAM · CloudWatch | Serverless automation: S3 cleanup, EC2 snapshot rotation, health checks |
+| 🏗️ [aws-terraform-infra](https://github.com/samarets-vlad/aws-terraform-infra) | Terraform · AWS · VPC · ALB · EC2 · RDS · S3 | Multi-environment AWS infrastructure with reusable modules and remote state |
+| ⚙️ [ansible-server-setup](https://github.com/samarets-vlad/ansible-server-setup) | Ansible · Nginx · Docker · Linux · TLS | Idempotent server provisioning: Docker CE, Nginx reverse proxy, self-signed or Let's Encrypt TLS |
+| 🔁 [docker-ecr-ec2-pipeline](https://github.com/samarets-vlad/docker-ecr-ec2-pipeline) | GitHub Actions · Docker · AWS ECR · EC2 | Production CI/CD pipeline: multi-stage Docker build → ECR → SSH deploy to EC2 |
+| 📊 [monitoring-stack](https://github.com/samarets-vlad/monitoring-stack) | Prometheus · Grafana · Alertmanager · Ansible · Docker | Full observability stack deployed with Ansible + Docker Compose, Nginx reverse proxy with TLS |
+| ☸️ [k8s-helm-app](https://github.com/samarets-vlad/k8s-helm-app) | k3s · Helm · Traefik · cert-manager · MySQL · Loki | Full-stack Todo app on k3s: 6 Helm charts, Let's Encrypt TLS, daily DB backups, Prometheus + Loki monitoring |
+| λ [serverless-aws-pipeline](https://github.com/samarets-vlad/serverless-aws-pipeline) | Terraform · Lambda · API Gateway · DynamoDB · S3 · CloudFront | Fully serverless TODO API: Terraform-provisioned infra + GitHub Actions deployment, 8 CloudWatch alarms |
 
 ---
 
@@ -76,4 +76,4 @@ I work with small product teams and startups as an independent contractor — fr
 
 ## 🌍 Languages
 
-🇺🇦 Ukrainian — Native &nbsp;|&nbsp; 🇷🇺 Russian — Native &nbsp;|&nbsp; en English — B2
+🇺🇦 Ukrainian — Native &nbsp;|&nbsp; 🇬🇧 English — B2
