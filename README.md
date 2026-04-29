@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="mailto:vladyslav.samarets.work@gmail.com"><img src="https://img.shields.io/badge/Email-vladyslav.samarets.work%40gmail.com-blue?style=flat-square&logo=gmail"/></a>
-  <img src="https://img.shields.io/badge/Location-Innsbruck%2C%20Austria-lightgrey?style=flat-square&logo=google-maps"/>
+  <img src="https://img.shields.io/badge/Location-Reutte%2C%20Austria-lightgrey?style=flat-square&logo=google-maps"/>
   <img src="https://img.shields.io/badge/Open%20to-Remote%20Only-brightgreen?style=flat-square"/>
 </p>
 
