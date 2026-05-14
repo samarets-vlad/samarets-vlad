@@ -1,4 +1,3 @@
-
 <h1 align="center">Hi, I'm Vlad 👋</h1>
 <h3 align="center">DevOps Engineer · Cloud Infrastructure · AWS · Terraform · Kubernetes</h3>
 
@@ -51,6 +50,7 @@ I work with small product teams and startups as an independent contractor — fr
 
 | Project | Stack | Description |
 |---|---|---|
+| 🐘 [postgres-cluster](https://github.com/samarets-vlad/postgres-cluster) | PostgreSQL 16 · Patroni · etcd · pgBouncer · HAProxy · WAL-G · MinIO · Ansible | Production-grade PostgreSQL HA cluster: auto-failover, synchronous replication (zero data loss), R/W split, connection pooling, WAL archiving + daily backups to S3-compatible storage, full observability |
 | 🏗️ [aws-terraform-infra](https://github.com/samarets-vlad/aws-terraform-infra) | Terraform · AWS · VPC · ALB · EC2 · RDS · S3 | Multi-environment AWS infrastructure with reusable modules and remote state |
 | ⚙️ [ansible-server-setup](https://github.com/samarets-vlad/ansible-server-setup) | Ansible · Nginx · Docker · Linux · TLS | Idempotent server provisioning: Docker CE, Nginx reverse proxy, self-signed or Let's Encrypt TLS |
 | 🔁 [docker-ecr-ec2-pipeline](https://github.com/samarets-vlad/docker-ecr-ec2-pipeline) | GitHub Actions · Docker · AWS ECR · EC2 | Production CI/CD pipeline: multi-stage Docker build → ECR → SSH deploy to EC2 |
