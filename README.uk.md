@@ -1,3 +1,5 @@
+> 🇬🇧 [English version](README.md)
+
 <h1 align="center">Привіт, я Влад 👋</h1>
 <h3 align="center">DevOps Engineer · Хмарна інфраструктура · AWS · Terraform · Kubernetes</h3>
 
