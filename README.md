@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="mailto:vladyslav.samarets.work@gmail.com"><img src="https://img.shields.io/badge/Email-vladyslav.samarets.work%40gmail.com-blue?style=flat-square&logo=gmail"/></a>
-  <img src="https://img.shields.io/badge/Location-Vienna%2C%20Austria-lightgrey?style=flat-square&logo=google-maps"/>
+  <img src="https://img.shields.io/badge/Location-Reutte%2C%20Austria-lightgrey?style=flat-square&logo=google-maps"/>
   <img src="https://img.shields.io/badge/Open%20to-Remote%20Only-brightgreen?style=flat-square"/>
 </p>
 
@@ -11,17 +11,15 @@
 
 ## 🚀 About Me
 
-DevOps / Infrastructure Engineer focused on reliable, reproducible infrastructure and pipelines on AWS and Linux.  
-I work with small teams and startups as an independent contractor: from zero‑to‑production infra to CI/CD and observability.
+DevOps Engineer with hands-on experience designing, automating, and maintaining cloud infrastructure on AWS.  
+I work with small product teams and startups as an independent contractor — from zero-to-production infrastructure provisioning to fully automated CI/CD pipelines.
 
-- 🏗️ Infrastructure as Code with **Terraform** (modules, remote state, multi‑env setups, tflint/tfsec)
-- ⚙️ Configuration management with **Ansible** (idempotent roles, HA clusters, monitoring stacks)
+- 🏗️ Infrastructure as Code with **Terraform** (modules, remote state, multi-env workspaces)
+- ⚙️ Configuration management with **Ansible** (idempotent playbooks, roles)
 - 🐳 Containerization: **Docker**, **Docker Compose**, **Kubernetes (k8s)**, **Helm**
-- 🔁 CI/CD: **GitHub Actions**, **GitLab CI** — build → test → scan → deploy (including OIDC, SSM‑based deploys)
+- 🔁 CI/CD: **GitHub Actions**, **GitLab CI** — build → test → push → deploy
 - 📊 Observability: **Prometheus**, **Grafana**, **Loki**, **Alertmanager**
 - ☁️ AWS: EC2, S3, RDS, Lambda, Route53, ECR, ALB, CloudFront, VPC, IAM, CloudWatch
-
-Self‑taught via real projects, documentation, and labs — no formal CS degree.
 
 ---
 
@@ -52,27 +50,32 @@ Self‑taught via real projects, documentation, and labs — no formal CS degree
 
 | Project | Stack | Description |
 |---|---|---|
-| 🐘 [postgres-cluster](https://github.com/samarets-vlad/postgres-cluster) | PostgreSQL 16 · Patroni · etcd · pgBouncer · HAProxy · WAL-G · MinIO · Ansible | Production-style PostgreSQL HA lab: auto‑failover, synchronous replication (zero data loss), R/W split, connection pooling, WAL archiving + scheduled backups to S3‑compatible storage, full monitoring with Prometheus/Grafana |
-| 🏗️ [aws-terraform-infra](https://github.com/samarets-vlad/aws-terraform-infra) | Terraform · AWS · VPC · ALB · EC2 · RDS · S3 | Multi‑environment AWS foundation: VPC, public/private subnets, ALB, EC2 ASG, RDS, S3 with remote state (S3+DynamoDB) and static analysis (tflint/tfsec) |
-| ⚙️ [ansible-server-setup](https://github.com/samarets-vlad/ansible-server-setup) | Ansible · Nginx · Docker · Linux · TLS | Idempotent server provisioning: Docker CE, Nginx reverse proxy, self‑signed or Let’s Encrypt TLS, app deploy via docker compose |
-| 🔁 [docker-ecr-ec2-pipeline](https://github.com/samarets-vlad/docker-ecr-ec2-pipeline) | GitHub Actions · Docker · AWS ECR · EC2 | CI/CD pipeline: multi‑stage Docker build → ECR → deploy to EC2 через AWS SSM (без SSH ключів) з GitHub OIDC для доступу до AWS |
-| 📊 [monitoring-stack](https://github.com/samarets-vlad/monitoring-stack) | Prometheus · Grafana · Alertmanager · Ansible · Docker | Prometheus + Grafana + Alertmanager + exporters, розгорнуті Ansible + Docker Compose, з Nginx reverse proxy та TLS |
-| ☸️ [k8s-helm-app](https://github.com/samarets-vlad/k8s-helm-app) | k3s · Helm · Traefik · cert-manager · MySQL · Loki | Full‑stack Todo app on k3s: 6 Helm charts, Traefik ingress, Let’s Encrypt TLS, daily DB backups (CronJob+PVC), Prometheus + Loki monitoring |
-| λ [serverless-aws-pipeline](https://github.com/samarets-vlad/serverless-aws-pipeline) | Terraform · Lambda · API Gateway · DynamoDB · S3 · CloudFront | Serverless TODO API: Terraform‑provisioned infra + GitHub Actions deployment, CloudWatch dashboard and alarms for Lambda/API/DynamoDB |
+| 🐘 [postgres-cluster](https://github.com/samarets-vlad/postgres-cluster) | PostgreSQL 16 · Patroni · etcd · pgBouncer · HAProxy · WAL-G · MinIO · Ansible | Production-grade PostgreSQL HA lab: auto-failover, synchronous replication (zero data loss), R/W split, connection pooling, WAL archiving + daily backups to S3-compatible storage, observability with Prometheus/Grafana |
+| 🏗️ [aws-terraform-infra](https://github.com/samarets-vlad/aws-terraform-infra) | Terraform · AWS · VPC · ALB · EC2 · RDS · S3 | Multi-environment AWS infrastructure with reusable modules, remote S3+DynamoDB state and static analysis (tflint, tfsec) |
+| ⚙️ [ansible-server-setup](https://github.com/samarets-vlad/ansible-server-setup) | Ansible · Nginx · Docker · Linux · TLS | Idempotent server provisioning: Docker CE, Nginx reverse proxy, self-signed or Let's Encrypt TLS, app deploy via Docker Compose |
+| 🔁 [docker-ecr-ec2-pipeline](https://github.com/samarets-vlad/docker-ecr-ec2-pipeline) | GitHub Actions · Docker · AWS ECR · EC2 | Production CI/CD pipeline: multi-stage Docker build → ECR → deploy to EC2 via AWS SSM and GitHub OIDC (no long-lived SSH keys) |
+| 📊 [monitoring-stack](https://github.com/samarets-vlad/monitoring-stack) | Prometheus · Grafana · Alertmanager · Ansible · Docker | Full observability stack deployed with Ansible + Docker Compose, Nginx reverse proxy with TLS |
+| ☸️ [k8s-helm-app](https://github.com/samarets-vlad/k8s-helm-app) | k3s · Helm · Traefik · cert-manager · MySQL · Loki | Full-stack Todo app on k3s: 6 Helm charts, Let's Encrypt TLS, daily DB backups, Prometheus + Loki monitoring |
+| λ [serverless-aws-pipeline](https://github.com/samarets-vlad/serverless-aws-pipeline) | Terraform · Lambda · API Gateway · DynamoDB · S3 · CloudFront | Fully serverless TODO API: Terraform-provisioned infra + GitHub Actions deployment, CloudWatch dashboard and alarms for Lambda/API/DynamoDB |
 
 ---
 
-## 🧪 How I Work
+## 📜 Certifications
 
-- Prefer **IaC‑first** approach — everything reproducible from code
-- Start from **minimal, secure defaults**, then add features
-- Document decisions with `docs/architecture.md` and `docs/decisions.md` where it makes sense
-- Use **linters and security scanners** (tflint, tfsec, ansible‑lint, trivy) in CI
+- 🎓 **DevOps & Cloud Infrastructure** — FoxMinded Mentorship Programme, 2026  
+  *(AWS · Terraform · Ansible · Kubernetes · CI/CD · Docker · Prometheus · Grafana · Loki)*
+
+---
+
+## 🎓 Education
+
+- **Master's** — Cyber Security & Data Protection · NURE, 2024–2025
+- **Bachelor's** — Cyber Security · NURE, 2020–2024
 
 ---
 
 ## 🌍 Languages
 
 - 🇺🇦 Ukrainian — Native  
-- 🇷🇺 Russian — Fluent  
-- 🇬🇧 English — B1–B2 (actively improving for professional use)
+- 🇷🇺 Russian — Native  
+- 🇬🇧 English — B2
